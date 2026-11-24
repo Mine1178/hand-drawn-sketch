@@ -4,6 +4,7 @@
 > 机房布局、光缆线路、天线安装三类图纸专用，单色批注 + 参差手写，信息不丢、尺寸不缺。
 
 ![Platform](https://img.shields.io/badge/Platform-Doubao%20Skill-blue)
+![Version](https://img.shields.io/badge/Version-v1.2.0-blueviolet)
 ![Language](https://img.shields.io/badge/Language-Markdown-important)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![PRs](https://img.shields.io/badge/PRs-Welcome-orange)
@@ -46,6 +47,8 @@
 hand-drawn-sketch/
 ├── README.md                  # 项目说明（本文件）
 ├── SKILL.md                   # 技能主文件：流程、强制规则、三类要点、自检清单
+├── CHANGELOG.md               # 版本更新记录
+├── LICENSE                    # MIT
 ├── references/
 │   └── prompt-bank.md         # 机房 / 线路 / 天线三套提示词模板 + 迭代短语
 └── assets/                    # 预览效果图
@@ -66,6 +69,22 @@ git clone https://github.com/Mine1178/hand-drawn-sketch.git
 2. 上传一张工程图纸，说明所属类别（机房 / 线路 / 天线）与风格档位。
 3. 按 `references/prompt-bank.md` 中对应模板填入本图的柜体、编号、尺寸、坐标等信息，生成手绘草图。
 4. 出图后按自检清单核对：单色无杂色、参差手写无印刷体、信息无遗漏。
+
+### ⚡ 一页速用（懒得查模板就复制这段）
+
+```
+把这张【机房/线路/天线】工程图转成真实铅笔手绘现场草图。铅笔在米白素描纸上随手勾画，
+有隐约纸纹、橡皮擦痕和少量折痕。三层线宽：主线略粗炭灰，标注引线与尺寸线细，强调线最粗
+且只用 2-3 处；前景实线、背景与预留位用手绘断续虚线；涂黑柱与重点阴影重压并用 45° 稀疏
+交叉排线，不上色块、不做灰度渐变。所有文字为真人随手手写，字高低上下参差、基线起伏不成行、
+字号大小不一、微微歪斜、字距松紧不均；严禁印刷体、严禁仿宋、严禁对齐成行；图名最大、
+设备站名次之、编号尺寸最小。位置、名称、编号、尺寸标高、经纬度对应原图，不遗漏、不颠倒
+上下游。【此处逐条列出本图必须保留的柜位/杆位/标高/尺寸】。除黑色铅笔外仅用红笔一种批注色，
+原图所有彩色批注并入红笔，不得出现第二种彩色。排除写实照片感、3D 渲染、CGI、光滑数码矢量、
+完美对称、尺画直线、几何精准、机械一致线条、平滑贝塞尔、渐变填充与喷枪质感。
+```
+
+> 提示词里**别写**"规整、整齐、工整、规范、对齐、表格线、印刷"——写了模型就给你出印刷图。
 
 ### 风格档位
 
@@ -94,3 +113,5 @@ git clone https://github.com/Mine1178/hand-drawn-sketch.git
 ## 📄 License
 
 MIT License
+
+版本记录见 [CHANGELOG.md](CHANGELOG.md)。
