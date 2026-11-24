@@ -49,6 +49,15 @@ hand-drawn-sketch/
 └── assets/                    # 预览效果图
 ```
 
+## 📥 安装
+
+> 一句话：克隆本仓库，把 `hand-drawn-sketch` 整个文件夹复制到所用 AI 智能体的技能目录（Doubao 为 `.user_skills/`），重新加载后上传图纸即可触发。
+
+```bash
+git clone https://github.com/Mine1178/hand-drawn-sketch.git
+# 将 hand-drawn-sketch 文件夹放入智能体技能目录，重启 / 重新加载技能即可
+```
+
 ## 🚀 快速使用
 
 1. 在支持 Skill 的 Agent 中加载本技能。
