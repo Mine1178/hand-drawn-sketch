@@ -4,7 +4,7 @@
 > 机房布局、光缆线路、天线安装三类图纸专用，单色批注 + 参差手写，信息不丢、尺寸不缺。
 
 ![Platform](https://img.shields.io/badge/Platform-Doubao%20Skill-blue)
-![Version](https://img.shields.io/badge/Version-v1.2.0-blueviolet)
+![Version](https://img.shields.io/badge/Version-v1.3.0-blueviolet)
 ![Language](https://img.shields.io/badge/Language-Markdown-important)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![PRs](https://img.shields.io/badge/PRs-Welcome-orange)
@@ -28,6 +28,7 @@
 - **三档风格可调**：工整笔记体 / 标准草稿（默认）/ 凌乱狂草草稿。
 - **现场草稿质感**：手抖线条、重描涂改、圈注问号、纸面灰影与擦痕。
 - **线条层级清晰**：主线略粗、标注引线细、强调线最粗；纯线稿不上色块，阴影用交叉排线。
+- **真实现场纸感**：像手机拍下的草图纸——轻微斜放、折痕阴影、淡污渍指印、光照不均，只出现纸不出现桌面道具。
 - **逼真铅笔质感**：分铅笔轻重与三层线宽，米白纸纹、擦除痕与折痕；同类样张作风格锚定，输出更稳。
 
 ## 🗂 支持的三类图
